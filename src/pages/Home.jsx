@@ -17,8 +17,8 @@ const Home = () => {
           display: 'inline-flex',
           alignItems: 'center',
           gap: '8px',
-          background: 'rgba(100, 255, 218, 0.1)',
-          color: 'var(--accent-cyan)',
+          background: 'rgba(38, 71, 234, 0.15)',
+          color: 'var(--accent-main)',
           padding: '8px 16px',
           borderRadius: '20px',
           fontSize: '0.9rem',
@@ -56,21 +56,21 @@ const Home = () => {
 
       <div className="grid-cards" style={{ marginTop: '40px' }}>
         <div className="glass-card animate-fade-up delay-100">
-          <div style={{ color: 'var(--accent-cyan)', marginBottom: '16px' }}>
+          <div style={{ color: 'var(--accent-main)', marginBottom: '16px' }}>
             <Book size={32} />
           </div>
           <h3>محتوى شامل</h3>
           <p>تغطية كاملة للمنهج من خلال 5 وحدات متكاملة مع مواضيعها التفصيلية.</p>
         </div>
         <div className="glass-card animate-fade-up delay-200">
-          <div style={{ color: 'var(--accent-cyan)', marginBottom: '16px' }}>
+          <div style={{ color: 'var(--accent-main)', marginBottom: '16px' }}>
             <Layers size={32} />
           </div>
           <h3>تنظيم هيكلي</h3>
           <p>كل موضوع يحتوي على محاضرات مرئية، امتحانات، ملازم ومخططات.</p>
         </div>
         <div className="glass-card animate-fade-up delay-300">
-          <div style={{ color: 'var(--accent-cyan)', marginBottom: '16px' }}>
+          <div style={{ color: 'var(--accent-main)', marginBottom: '16px' }}>
             <Sparkles size={32} />
           </div>
           <h3>تعلم تفاعلي</h3>

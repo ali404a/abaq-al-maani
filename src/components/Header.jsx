@@ -12,10 +12,10 @@ const Header = () => {
       <div className="container header-content">
         <Link to="/" className="logo-container">
           <div style={{
-            background: 'var(--accent-cyan)',
+            background: 'var(--accent-main)',
             padding: '8px',
             borderRadius: '12px',
-            color: 'var(--primary-blue)'
+            color: 'var(--white)'
           }}>
             <BookOpen size={24} />
           </div>

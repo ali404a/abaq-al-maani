@@ -15,7 +15,7 @@ const TopicDetails = () => {
       </div>
 
       <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '16px' }}>
-        <div style={{ background: 'var(--accent-cyan)', padding: '8px', borderRadius: '8px', color: 'var(--primary-blue)' }}>
+        <div style={{ background: 'var(--accent-main)', padding: '8px', borderRadius: '8px', color: 'var(--white)' }}>
           <PlayCircle size={24} />
         </div>
         <h1 className="text-gradient" style={{ margin: 0 }}>

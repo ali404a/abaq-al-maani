@@ -5,7 +5,7 @@ const RecitationRules = () => {
   return (
     <div className="container animate-fade-up">
       <div style={{ textAlign: 'center', marginBottom: '40px' }}>
-        <div style={{ display: 'inline-block', background: 'rgba(100, 255, 218, 0.1)', padding: '16px', borderRadius: '50%', color: 'var(--accent-cyan)', marginBottom: '16px' }}>
+        <div style={{ display: 'inline-block', background: 'rgba(38, 71, 234, 0.15)', padding: '16px', borderRadius: '50%', color: 'var(--accent-main)', marginBottom: '16px' }}>
           <Book size={48} />
         </div>
         <h1 className="text-gradient">أحكام التلاوة والتجويد</h1>

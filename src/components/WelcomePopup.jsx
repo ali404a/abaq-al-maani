@@ -32,7 +32,7 @@ const WelcomePopup = () => {
           <X size={24} />
         </button>
         <div style={{ marginBottom: '24px' }}>
-          <InstagramIcon size={48} color="var(--accent-cyan)" />
+          <InstagramIcon size={48} color="var(--accent-main)" />
         </div>
         <h2 style={{ color: 'var(--white)' }}>أهلاً بك في دورتنا!</h2>
         <p style={{ marginBottom: '24px', fontSize: '1.1rem' }}>

@@ -36,10 +36,10 @@ const UnitDetails = () => {
           >
             <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
               <div style={{ 
-                background: 'rgba(100, 255, 218, 0.1)', 
+                background: 'rgba(38, 71, 234, 0.15)', 
                 padding: '12px', 
                 borderRadius: '8px',
-                color: 'var(--accent-cyan)'
+                color: 'var(--accent-main)'
               }}>
                 <BookOpen size={24} />
               </div>

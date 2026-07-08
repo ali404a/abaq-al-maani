@@ -24,7 +24,7 @@ const Units = () => {
             className={`glass-card delay-${(index % 3 + 1) * 100}`}
             style={{ textDecoration: 'none' }}
           >
-            <div style={{ color: 'var(--accent-cyan)' }}>
+            <div style={{ color: 'var(--accent-main)' }}>
               <Layers size={32} />
             </div>
             <h3>{unit.title}</h3>
